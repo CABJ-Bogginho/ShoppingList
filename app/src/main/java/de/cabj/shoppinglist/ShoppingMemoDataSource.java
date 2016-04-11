@@ -4,9 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-/**
- * Created by Conan-WG-Commander on 11/04/2016.
- */
 public class ShoppingMemoDataSource {
 
     private static final String LOG_TAG = ShoppingMemoDataSource.class.getSimpleName();

@@ -6,9 +6,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 
-/**
- * Created by Conan-WG-Commander on 11/04/2016.
- */
 public class ShoppingMemoDbHelper extends SQLiteOpenHelper{
 
     private static final String LOG_TAG = ShoppingMemoDbHelper.class.getSimpleName();
