@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.util.Log;
 
-
+//test
 public class MainActivity extends AppCompatActivity {
 
     public static final String LOG_TAG = MainActivity.class.getSimpleName();
