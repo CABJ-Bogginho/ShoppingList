@@ -6,14 +6,24 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.util.Log;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final String LOG_TAG = MainActivity.class.getSimpleName();
+
+    private ShoppingMemoDataSource dataSource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ShoppingMemo testMemo = new ShoppingMemo("Birnen",5,102);
+        Log.d(LOG_TAG, "Inhalt der Testmemo: " + testMemo.toString());
+
+        dataSource = new ShoppingMemoDataSource(this);
     }
 
     @Override
